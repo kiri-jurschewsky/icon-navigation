@@ -28,6 +28,7 @@ header {
 
 h1 {
   color: #fff;
+  display: block;
 
 }
 
@@ -45,6 +46,9 @@ li {
 
 a, a:visited {
   color: #fff;
+  background-color: #15114c;
+  border: 3px;
+  border-radius: 8px;
   text-decoration: none;
 }
 
