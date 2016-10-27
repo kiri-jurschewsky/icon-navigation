@@ -8,17 +8,17 @@ html {
   font-family: "Abhaya Libre", serif;
 }
 
-
 h1 {
   color: #fff;
 }
 
-.masthead{
+.masthead {
   background-color: #423ca3;
 }
 
 .nav {
   color: #fff;
+  text-align: center;
 }
 
 .nav a {
@@ -26,6 +26,11 @@ h1 {
   color: #fff;
   border-radius: 4px;
   background-color: #15114c;
+}
+
+.nav a:hover {
+  color: #15114c;
+  background-color: #fff;
 }
 
 .logo {
@@ -43,6 +48,6 @@ h1 {
   .logo {
     display: block;
     text-align: left;
-    width: 100%
+    width: 100%;
   }
 }
