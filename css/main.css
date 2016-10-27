@@ -5,61 +5,44 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  
-  font-family: serif;
+  font-family: "Abhaya Libre", serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-header {
-  text-align: center;
-}
 
 h1 {
   color: #fff;
-  display: block;
-
 }
 
-li {
-  display: inline-block;
-}
-
-.section-dark {
+.masthead{
   background-color: #423ca3;
 }
 
-a, a:visited {
+.nav {
   color: #fff;
-  background-color: #15114c;
-  border: 3px;
-  border-radius: 8px;
-  text-decoration: none;
 }
 
-a:hover, .current, .current:visited {
-  background-color: #15114c;
+.nav a {
+  text-decoration: none;
   color: #fff;
+  border-radius: 4px;
+  background-color: #15114c;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 @media only screen and (min-width: 60em) {
 
-  header {
-    text-align: left;
+  .nav {
+    text-align: right;
   }
-}
 
-@media only screen and (min-width: 90em) {
-
-  header {
+  .logo {
+    display: block;
     text-align: left;
+    width: 100%
   }
 }
